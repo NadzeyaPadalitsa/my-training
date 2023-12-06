@@ -28,7 +28,7 @@ export default App;
 const StyledCard = styled.div`
   padding: 10px 10px 22px;
   width: 300px;
-  height: 350px;
+  min-height: 350px;
   border-radius: 15px;
   background-color: ${myTheme.colors.main};
   box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.10);
